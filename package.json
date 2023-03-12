@@ -1,12 +1,15 @@
 {
   "dependencies": {
     "dotenv": "^16.0.3",
+    "esm": "^3.2.25",
     "openai": "^3.2.1"
   },
   "name": "assistdd",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "main": "src/index.js",
+  "bin": {
+    "assistdd": "bin/assistdd"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
